@@ -8,7 +8,7 @@ import torch
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
 
 BASE_DIR = Path(__file__).resolve().parent
-MODEL_PATH = BASE_DIR / "model" 
+MODEL_PATH = "peakyblends/clinical-report-biobert"
 LABEL_ENCODER_PATH = BASE_DIR / "label_encoder.pkl"
 MEDICAL_TERMS_PATH = BASE_DIR / "medical_terms.pkl"
 
