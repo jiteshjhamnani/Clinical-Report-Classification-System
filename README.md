@@ -27,7 +27,6 @@ Accuracy: 83.6%
 ## Tech Stack
 
 Python
-PyTorch
 BioBERT
 FastAPI
 Streamlit
